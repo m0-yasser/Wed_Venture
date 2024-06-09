@@ -1,0 +1,225 @@
+name: wedventure_3
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  smooth_page_indicator: ^1.0.0
+  awesome_dialog: ^3.2.0
+  google_maps_flutter: ^2.6.1
+
+
+
+
+  provider: ^6.1.2
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  firebase_storage: ^12.0.0
+  firebase_database: ^11.0.0
+  firebase_messaging: ^15.0.0
+  google_sign_in: ^6.2.1
+  url_launcher: ^6.1.14
+  dio: ^5.3.3
+  app_links: ^6.0.2
+  intl: ^0.19.0
+  http:
+  flutter_pdfview:
+  path_provider: ^2.0.11
+  permission_handler:
+  uuid: ^4.4.0
+  mailer: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/back.png
+    - images/lab.jpg
+    - images/back2.png
+    - images/bg.jpeg
+    - images/google.png
+    - images/logo.png
+    - images/ph.jpg
+    - images/intro/intro1.jpg
+    - images/intro/intro2.jpg
+    - images/intro/intro3.jpg
+    - images/intro/intro4.jpg
+    - images/intro/intro5.jpg
+    - images/intro/intro6.jpg
+    - images/intro/intro7.jpg
+    - images/intro/intro8.jpg
+    - images/intro/intro9.jpg
+    - images/intro/intro10.jpg
+    - images/intro/intro11.png
+    - images/homepage/image1.jpeg.jpg
+    - images/homepage/image3.jpeg.jpg
+    - images/homepage/image4.jpeg.jpg
+    - images/homepage/image5.jpeg.jpg
+    - images/homepage/image6.jpeg.jpg
+    - images/homepage/image7.jpeg.jpg
+    - images/homepage/image8.jpeg.jpg
+    - images/homepage/image11.jpeg.jpg
+    - images/homepage/image12.jpeg.jpg
+    - images/suitshop/suiteshop1.jpg
+    - images/suitshop/suiteshop2.jpg
+    - images/suitshop/suiteshop3.jpg
+    - images/suitshop/suiteshop4.jpg
+    - images/suitshop/suiteshop5.jpg
+    - images/suit/suit1.jpg
+    - images/suit/suit2.jpg
+    - images/suit/suit3.jpg
+    - images/suit/suit4.jpg
+    - images/suit/suit5.jpg
+    - images/suit/suit6.jpg
+    - images/photographer/belaco.jpg
+    - images/photographer/boda1.jpg
+    - images/photographer/tofy.jpg
+    - images/halls/golden.jpg
+    - images/halls/golden2.jpg
+    - images/halls/golden3.jpg
+    - images/halls/roof.jpg
+    - images/halls/roof2.jpg
+    - images/halls/roof3.jpg
+    - images/halls/silver.jpg
+    - images/halls/silver2.jpg
+    - images/halls/silver3.jpg
+    - images/halls/silver4.jpg
+    - images/halls/tree.jpg
+    - images/halls/tree2.jpg
+    - images/halls/tree3.jpg
+    - images/makeupartist/omnia2.jpg
+    - images/makeupartist/rowan2.jpg
+    - images/makeupartist/sara2.jpg
+    - images/makeupartist/shahd2.jpg
+    - images/Dsuit/Dsuit1.jpg
+    - images/Dsuit/Dsuit2.jpg
+    - images/Dhalls/D_halls.jpg
+    - images/Dhalls/D_halls2.jpg
+    - images/Dhalls/treelogo.jpg
+    - images/Dphoto/belaco2.jpg
+    - images/Dphoto/belaco3.jpg
+    - images/Dphoto/boda2.jpg
+    - images/Dphoto/boda3.jpg
+    - images/Dphoto/tofy3.jpg
+    - images/Ddress/D_dress.jpg
+    - images/Dmakeup/omnia1.jpg
+    - images/Dmakeup/omnia3.jpg
+    - images/Dmakeup/rowan1.jpg
+    - images/Dmakeup/rowan3.jpg
+    - images/Dmakeup/sara1.jpg
+    - images/Dmakeup/sara3.jpg
+    - images/Dmakeup/shahd1.jpg
+    - images/Dmakeup/shahd3.jpg
+    - images/profile/changepassword.PNG
+    - images/profile/favourite.PNG
+    - images/profile/following.PNG
+    - images/profile/gmail.PNG
+    - images/profile/list.PNG
+    - images/profile/phone.PNG
+    - images/profile/setting.PNG
+    - images/profile/signout.PNG
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: WendyOne
+      fonts:
+        - asset: fonts/WendyOne-Regular.ttf
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    - family: WorkSans
+      fonts:
+        - asset: fonts/WorkSans-Italic-VariableFont_wght.ttf
+        - asset: fonts/WorkSans-VariableFont_wght.ttf
+    #         weight: 700
+    #
+    - family: Tajawal
+      fonts:
+        - asset: fonts/Tajawal-Black.ttf
+        - asset: fonts/Tajawal-Bold.ttf
+        - asset: fonts/Tajawal-ExtraBold.ttf
+        - asset: fonts/Tajawal-ExtraLight.ttf
+        - asset: fonts/Tajawal-Light.ttf
+        - asset: fonts/Tajawal-Medium.ttf
+        - asset: fonts/Tajawal-Regular.ttf
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
